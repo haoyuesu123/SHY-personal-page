@@ -1,0 +1,73 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* 主容器样式 */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* 个人信息样式 */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* 个人照片样式 */
+.photo-section {
+    margin: 20px 0;
+}
+
+.profile-photo {
+    max-width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+
+/* 自我介绍样式 */
+.about-section, .contact-section {
+    margin-top: 30px;
+}
+
+.about-section h2, .contact-section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-section p, .contact-section p {
+    line-height: 1.6;
+    font-size: 1em;
+    color: #555;
+}
+
+/* 联系方式样式 */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
